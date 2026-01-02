@@ -18,6 +18,7 @@ export const baseConfigSchema = z.object({
     .array(z.string())
     .optional()
     .default([
+      '// biome-ignore-all lint assist: this file is generated',
       '/* eslint-disable */',
       '// @ts-nocheck',
       '// noinspection JSUnusedGlobalSymbols',
